@@ -1,0 +1,23 @@
+{
+    "name": "dhanushka/contactform",
+    "description": "Sample Contact Form",
+    "authors": [
+        {
+            "name": "Dhanushka Jayasekara",
+            "email": "dhanushka.jayasekara@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dhanushka\\Contactform\\ContactFormServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Dhanushka\\Contactform\\": "src/"
+        }
+    }
+}
